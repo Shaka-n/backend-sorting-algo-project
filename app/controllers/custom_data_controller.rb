@@ -1,0 +1,2 @@
+class CustomDataController < ApplicationController
+end

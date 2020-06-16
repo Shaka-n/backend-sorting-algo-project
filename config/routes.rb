@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :custom_data
   resources :sorts
   resources :users
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
