@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class CustomDataControllerTest < ActionDispatch::IntegrationTest
+class UserPreferenceTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
