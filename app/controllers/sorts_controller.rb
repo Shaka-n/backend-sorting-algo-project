@@ -6,12 +6,12 @@ class SortsController < ApplicationController
     end
 
     def show
-        sort = Sort.find(params[:algo_name])
+        sort = Sort.find(params[:id])
         render json: sort, only: [:algo_name, :times_run]
     end
     
     def create
-        sort = Sort.create(username: params[:username])
+        sort = Sort.create(algo_name: params[:algo_name])
         render json: sort
     end
 
